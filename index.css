@@ -1,0 +1,57 @@
+body{background: rgb(72, 156, 100);}
+header{width: 100%;height: 70px;background: rgb(1, 181, 187);}
+#logo{
+    width: 30%;
+    height: 100%;
+    float: right;
+    background: #fafafa;
+}
+header h1{float: left; margin-right: 6px; font-size: 30px; font-family: Georgia, 'Times New Roman', Times, serif; margin-left: 60px;}
+header img{width: 70px;height: 66px;border-radius: 50px; border: 2px solid black;margin-right: 20px; }
+main{
+    width: 100%;
+    height: 552px;
+    background-color: aqua;
+    border-top: 3px solid rgb(255, 0, 0);
+    animation-name: changeback;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+aside{
+    width: 30%;
+    float: right;
+    height:100%;
+    background-color: #fafafa;
+    text-align: center;
+}
+@keyframes changeback{
+    0%{background-color: rgb(2, 2, 2);}
+    50%{background-color: rgb(122, 122, 122);}
+    100%{background-color: rgb(54, 54, 54);}
+}
+aside img{width: 90%;
+margin-top: 20px;}
+aside h1{padding: 20px 0;
+border-bottom: 2px solid red;}
+main article{
+  
+    text-align: center;
+    float: right;
+    width: 70%;
+    background: rgb(218, 217, 217);
+    height: 550px;
+
+
+}
+main article p{margin-left: 20px;
+margin-right: 20px;
+font-size: 17px;}
+#loo{
+    text-align: center;
+    font-size: 30px;
+}
+@media only screen and (min-width:320px) and (max-width:750px){
+    #loo{font-size: 15px;}
+}
+
